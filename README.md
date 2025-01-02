@@ -92,6 +92,142 @@ A comprehensive user authentication system built with Django, offering a secure 
 
 ---
 
+# User Authentication Frontend
+
+A modern authentication interface built with React, TypeScript, and Tailwind CSS.
+
+## 🚀 Features
+
+- **Authentication Flow**
+  - 🔑 Login with username/email
+  - 📝 User registration
+  - 🔐 Password reset
+  - 🔄 Password change
+  - 👤 Profile management
+
+- **UI Components**
+  - 📱 Responsive design
+  - ✅ Form validation
+  - 🔔 Toast notifications
+  - ⏳ Loading states
+  - ⚠️ Error handling
+
+## 🛠️ Tech Stack
+
+- React 18
+- TypeScript
+- Tailwind CSS
+- Vite
+- React Router DOM
+- Axios
+- React Hot Toast
+- Lucide React Icons
+
+## 📁 Project Structure
+
+```
+src/
+├── api/
+│   └── index.ts           # API client and endpoints
+├── components/
+│   ├── AuthLayout.tsx     # Authentication pages layout
+│   ├── Button.tsx         # Reusable button component
+│   └── Input.tsx          # Form input component
+├── pages/
+│   ├── Login.tsx          # Login page
+│   ├── Register.tsx       # Registration page
+│   ├── Dashboard.tsx      # User dashboard
+│   ├── Profile.tsx        # User profile
+│   ├── ChangePassword.tsx # Password change
+│   └── ForgotPassword.tsx # Password reset
+├── types/
+│   └── auth.ts            # TypeScript interfaces
+└── lib/
+    └── utils.ts           # Utility functions
+```
+
+## 🚀 Quick Start
+
+1. Install dependencies:
+```bash
+npm install
+```
+
+2. Start development server:
+```bash
+npm run dev
+```
+
+3. Build for production:
+```bash
+npm run build
+```
+
+## 🔧 Environment Setup
+
+Create a `.env` file in the root directory:
+
+```env
+VITE_API_URL=http://localhost:8000/api
+```
+
+## 📝 Available Scripts
+
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint
+
+## 🔒 Authentication
+
+- Uses token-based authentication
+- Stores auth token in localStorage
+- Protected routes redirect to login
+- Automatic token injection in API requests
+
+## 🎨 Styling
+
+- Tailwind CSS for utility-first styling
+- Responsive design patterns
+- Custom components with consistent styling
+- Dark mode support through Tailwind
+
+## 🔄 API Integration
+
+- Axios for API requests
+- Centralized API client
+- Request/response interceptors
+- Error handling
+- Type-safe API calls
+
+## 📱 Responsive Design
+
+- Mobile-first approach
+- Breakpoints:
+  - sm: 640px
+  - md: 768px
+  - lg: 1024px
+  - xl: 1280px
+
+## 🛡️ Type Safety
+
+- Full TypeScript support
+- Interface definitions for:
+  - API responses
+  - Component props
+  - Form data
+  - User data
+
+## 🐛 Error Handling
+
+- Form validation errors
+- API error responses
+- Network errors
+- Toast notifications
+- User-friendly error messages
+
+---
+
 ## How to Contribute 🤝
 
 We welcome contributions! To get started:
