@@ -1,3 +1,4 @@
+# C:\Users\KIIT\OneDrive\Desktop\djangoProject\djangoProject\settings.py
 from pathlib import Path
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
